@@ -1,6 +1,24 @@
-# Master_thesis
-This code addition of the code should:
--save the data in a class where every index is an object and the row titles are attributes.
--save the data in a pickle file
--extract artifact 1-3
--use cross-correlation to remove the artifact
+#Projectome_finder
+This project includes three different notebooks
+
+-Notebook_1__Load_data_transform_object
+	-Section A: Load the data from the original data
+	-Section B: Define a way so that it is simple to:	
+			-save part or all the data
+			-load part or all the data
+
+
+Notebook_2_Building_artifact_library
+	-Section C: Building the library of artifacts
+			-load data
+			-find artifacts
+			-save artifacts
+
+Notebook_3_Cleaning_data
+	-Section D: For each artifact:
+		-load the data
+		-create an artefact-free series (new attribute of object)
+		-save the data
+
+
+
