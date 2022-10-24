@@ -3,3 +3,6 @@
 *.pkl
 /data
 data/
+.csv/
+/.csv
+*.csv
