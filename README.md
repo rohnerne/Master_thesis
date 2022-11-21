@@ -5,7 +5,9 @@ This project includes eight different notebooks and two different datasets: arti
 ## Notebook_artifacts_ds
 
 -Notebook_1__Load_data_transform_object
+
 	-Section A: Load the data from the original data
+
 	-Section B: Define a way so that it is simple to:	
 			-save part or all the data
 			-load part or all the data
@@ -84,11 +86,15 @@ Notebook_7_Create_tensor_filteredData
 		Dim 2: all amplitudes (40 amplitude values starting from 0.2 to 4.9, if for specific combination no EMG data for specific amplitude, space filled with "nan")
 
 Notebook_8_Analysis
+
 	-Plots the recruitment curve based on peak to peak values, for every electrode
+
 	-on hold: Plots the recruitment curve based on integral of the filtered data, for every electrode
 
 ## Notebooks on hold
+
 Notebook_x_Cleaning_data
+
 	This notebook is put on hold for now, since we don't focuse on artifact removal anymore
 	-Section D: For each artifact:
 		-load the data
