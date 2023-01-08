@@ -2,7 +2,7 @@
 This project includes eight different notebooks and two different datasets: artifact data and robins data
 
 
-## Notebook_artifacts_ds
+## Notebook_artifacts
 
 -Notebook_1__Load_data_transform_object
 
@@ -54,7 +54,7 @@ Notebook_5_Peak_to_peak_analysis
 	-analysing data by plotting histograms
 
 
-## Notebook_Robins_ds
+## Notebook_muscles
 
 Notebook_6_Notebook_6_Loading_Mat_from_RD
 
@@ -87,9 +87,30 @@ Notebook_7_Create_tensor_filteredData
 
 Notebook_8_Analysis
 
-	-Plots the recruitment curve based on peak to peak values, for every electrode
+	-Plot Filtered EMG
+	-EMG Processing: plot peak to peak values = recruitment curves
+		
+	-Muscle recruitment processing
+		-A: Heat map
+			-Normalisation of data
+			-build heat map ( with and without interpolation)
+			-plot heatmap
+		-B: Fit recruitment to sigmoids
+			-with max value set by data
+			-with interpolated max value (higher than data)
 
-	-on hold: Plots the recruitment curve based on integral of the filtered data, for every electrode
+
+## Notebook_roots
+
+Notebook_9_Loading_Neuron_Sim_Results
+	-Load the simulations 
+	-Restructure it to a df
+	-Save it as pickle file
+
+Notebook_10_Load_roots_simulation
+	-Plot the roots recruitment curve
+	-build and plot the heat map
+	-build and plot the sigmoid curve
 
 ## Notebooks on hold
 
