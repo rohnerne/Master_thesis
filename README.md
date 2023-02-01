@@ -8,11 +8,14 @@ and two different datasets: artifact data and robins data
 ## Notebook_combined
 
 combined_NB_31.01.ipynb
+
 	-Load data (muscles) and simulation (roots)
 	-plot recruitment curves
+
 	-process recruitment
 		- Heatmap
 		- Sigmoid fit
+
 	-Evaluate: combine roots and muscles
 		- Combine activation pattern (muscles, roots)
 		- Compare projectome (from paper) with generated
